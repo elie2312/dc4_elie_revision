@@ -1,5 +1,4 @@
 let tableauOriginal = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let nombresPairs = obtenirNombresPairs(tableauOriginal);
 
 function obtenirNombresPairs(tableau) {
     let nombresPairs = [];
@@ -13,5 +12,5 @@ function obtenirNombresPairs(tableau) {
     return nombresPairs;
   }
   
-
+let nombresPairs = obtenirNombresPairs(tableauOriginal);
 console.log(nombresPairs);
